@@ -203,6 +203,10 @@ main {
     text-align: center;
     background-color: #efbe1b;
 }
+.portfolio-header {
+    width: 100%;
+    margin: 0 0 15px 0;
+}
 .education-university {
     font-size: 14px;
     line-height: 20px;
@@ -257,12 +261,11 @@ main {
 .react-typescript-node {
     width: 80px;
 }
-.portfolio
-{
-    display: grid;
-    grid-template-columns: 510px;
-    grid-template-rows: 30px 150px 150px 180px 150px;
-    grid-row-gap: 30px;
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 a {
     font-size: 16px;
@@ -271,6 +274,7 @@ a {
 }
 .portfolio-block {
     padding-left: 5px;
+    margin: 0 0 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
